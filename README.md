@@ -27,7 +27,7 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
   * [Portable Libraries](https://www.juniper.net/documentation/resources/index.html) Doing a cutover and won't have Internet access? Grab a portable library!  
 
 ## Installation videos
-* [Self Paced Hardware Installation and configuration Videos](https://twitter.com/junipercertify/status/1555258466297585669?s=21&t=c3jv8fHnP3woNeJMAKrGYA)
+* [Self Paced Hardware Installation and configuration Videos](http://juni.pr/3xfLTu5)
    
 ## Juniper vLabs
   * [Juniper vLabs](https://jlabs.juniper.net/vlabs)  
