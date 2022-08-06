@@ -24,8 +24,10 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 ## Apps
   * Find all of Junipers applications [here](https://apps.juniper.net/home/)
   * [CLI Explorer](https://apps.juniper.net/cli-explorer/) - Complete CLI reference  
-  * [Portable Libraries](https://www.juniper.net/documentation/resources/index.html) Doing a cutover and won't have Internet access? Grab a portable library! 
+  * [Portable Libraries](https://www.juniper.net/documentation/resources/index.html) Doing a cutover and won't have Internet access? Grab a portable library!  
 
+## Installation videos
+* [Self Paced Hardware Installation and configuration Videos](https://twitter.com/junipercertify/status/1555258466297585669?s=21&t=c3jv8fHnP3woNeJMAKrGYA)
    
 ## Juniper vLabs
   * [Juniper vLabs](https://jlabs.juniper.net/vlabs)  
