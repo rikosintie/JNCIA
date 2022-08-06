@@ -9,7 +9,7 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 ## Junos Learning Portal
   * Create your free [Juniper Learning Paths](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=5357) account
 
-  <a name="#twitter"\>  
+  <a name="#twitter"/>
   
   * Follow on [twitter](https://twitter.com/JuniperCertify) 
   * Free Open Learning CCNA to JNCIA [video](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=12097) training
