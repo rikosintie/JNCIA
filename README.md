@@ -1,13 +1,16 @@
 # Resources
-Juniper offers a 7 hour video training course called [MIGRATING FROM THE CISCO CCNA TO THE JNCIA-JUNOS](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-WBT-JOL-CCNA-JNCIA-JUNOS). As always, you have to create an account. Unlike Cisco, you have to use a corporate email address, they won't accept gmail.com etc.
+Juniper offers a 7 hour video training course called [MIGRATING FROM THE CISCO CCNA TO THE JNCIA-JUNOS](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-WBT-JOL-CCNA-JNCIA-JUNOS). As always, you have to create an account. Unlike Cisco, you have to use a corporate email address, they won't accept Google, Apple, etc OAUTH.
 
-When you complete the training they send you an email with an offer to take sample exam up to 3 times. If you get a 70% or better they send you a coupon for 75% off of the $200 Pearson exam!
+When you complete the training they send you an email with an offer to take a sample exam up to 3 times. If you get a 70% or better, they send you a coupon for 75% off of the $200 Pearson exam!
 
 ## Additional Resources
-Juniper offers quite a bit of free material to study from. Here are the ones I know about. Once you create a Learning Portal account you get access to several communitites. 
+Juniper offers quite a bit of free material to study from. Here are the ones I know about. Once you create a Learning Portal account you get access to several communitites. None are dedicated to the exams but they are good for general knowledge. There is a dedicated certification [twitter](#twitter) account.  
 
 ## Junos Learning Portal
   * Create your free [Juniper Learning Paths](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=5357) account
+
+  <a name="#twitter"/>  
+  
   * Follow on [twitter](https://twitter.com/JuniperCertify) 
   * Free Open Learning CCNA to JNCIA [video](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=12097) training
 * Free practice tests after you complete the video training.  
