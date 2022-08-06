@@ -43,6 +43,16 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
   * Join the [Juniper Slack](networktocode.herokuapp.com/) channel  
   * Join the Juniper commnunity - [elevate](https://community.juniper.net/home857)
 
+# Software Release Types
+[Junos OS Release Numbers](https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/software-install-and-upgrade-overview.html)  
+* R First revenue ship (FRS) or maintenance release software. R1 is FRS. R2 onward are maintenance releases.  
+* F Feature velocity release. Feature velocity releases are only in Junos OS Release 15.1. 
+* B Beta release software.  
+*  I Internal release software. These are private software releases for verifying fixes.  
+* S Service release software, which are released to customers to solve a specific problem—this release will be maintained along with the life span of the underlying release. The service release number is added after the R number, for example, 14.2R3-S4.4. Here S4 represents the 4th service release on top of 14.2R3 and is the 4th re-spin.  
+* X Special (eXception) release software. X releases follow a numbering system that differs from the standard release numbering.  
+
+
 ## GNS3  
 Juniper provides images that worn on GNS3 but you have to pay for the Juniper training.
 
