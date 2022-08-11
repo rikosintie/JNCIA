@@ -36,7 +36,10 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
    
 ## Juniper vLabs
   * [Juniper vLabs](https://jlabs.juniper.net/vlabs)  
-  * [Sandbox with vQFX, vSRX, vMX](https://jlabs.juniper.net/vlabs/portal/junos-day-one-plus-experience/index.page?icid=junos:note:1:junos_day_one)
+  * [Sandbox with vQFX, vSRX, vMX](https://jlabs.juniper.net/vlabs/portal/junos-day-one-plus-experience/index.page?icid=junos:note:1:junos_day_one)  
+  * [vLab Sandbox: Junos Day One+ Experience – Using the Sandbox](https://jlabs.juniper.net/vlabs/portal/junos-day-one-plus-experience/junos-day-one-plus-experience-using-the-sandbox.page)  
+  * [Gettting Started with Junos OS lab](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started/index.html)  
+  * [Junos OS Evolved](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/index.html)  
 
  
 ## AWS EC2 Instances
@@ -60,5 +63,3 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 
 ## GNS3  
 Juniper provides images that worn on GNS3 but you have to pay for the Juniper training.
-
-
