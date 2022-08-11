@@ -1,3 +1,8 @@
+<p align="center" width="100%">
+    <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/images/junos6.png"> 
+</p>  
+
+
 # Resources
 Juniper offers a 7 hour video training course called [MIGRATING FROM THE CISCO CCNA TO THE JNCIA-JUNOS](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-WBT-JOL-CCNA-JNCIA-JUNOS). As always, you have to create an account. Unlike Cisco, you have to use a corporate email address, they won't accept Google, Apple, etc OAUTH.
 
