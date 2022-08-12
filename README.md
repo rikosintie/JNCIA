@@ -60,6 +60,11 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 * **S** Service release software, which are released to customers to solve a specific problem—this release will be maintained along with the life span of the underlying release. The service release number is added after the R number, for example, 14.2R3-S4.4. Here S4 represents the 4th service release on top of 14.2R3 and is the 4th re-spin.  
 * **X** Special (eXception) release software. X releases follow a numbering system that differs from the standard release numbering.  
 
+# Docker
+* [DAY ONE: BUILDING CONTAINERS WITH cSRX, 2ND EDITION](https://www.juniper.net/documentation/en_US/day-one-books/day-one-building-containers-with-docker-csrx.pdf)  
+* [Docker Hub](https://hub.docker.com) - Search for juniper  
 
 ## GNS3  
 Juniper provides images that worn on GNS3 but you have to pay for the Juniper training.
+
+
