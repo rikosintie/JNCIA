@@ -38,6 +38,7 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
   * [Juniper vLabs](https://jlabs.juniper.net/vlabs)  
   * [Sandbox with vQFX, vSRX, vMX](https://jlabs.juniper.net/vlabs/portal/junos-day-one-plus-experience/index.page?icid=junos:note:1:junos_day_one)  
   * [vLab Sandbox: Junos Day One+ Experience – Using the Sandbox](https://jlabs.juniper.net/vlabs/portal/junos-day-one-plus-experience/junos-day-one-plus-experience-using-the-sandbox.page)  
+  * [Juniper vLabs User Guide](https://jlabs.juniper.net/assets/pdf/vlabs/vlabs-ug.pdf)  
   * [Gettting Started with Junos OS lab](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started/index.html)  
   * [Junos OS Evolved](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/index.html)  
 
@@ -66,5 +67,15 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 
 ## GNS3  
 Juniper provides images that worn on GNS3 but you have to pay for the Juniper training.
+
+# Blogs
+
+[JNCIA-Junos Passed: Resources and Exam Thoughts](https://journey2theccie.wordpress.com/2021/03/03/jncia-junos-passed-resources-and-exam-thoughts/)  
+[Juniper JunOS for Cisco Engineers Pt.1 – CLI Basics](https://journey2theccie.wordpress.com/2021/02/11/juniper-junos-for-cisco-engineers-pt-1-cli-basics/)  
+[Juniper JunOS for Cisco Engineers Pt.2 – Static Routing and OSPF](https://journey2theccie.wordpress.com/2021/02/24/juniper-junos-for-cisco-engineers-pt-2-static-routing-and-ospf/)  
+[Juniper vSRX Setup & Initial Configuration Guide](https://journey2theccie.wordpress.com/2021/02/04/juniper-vsrx-setup-initial-configuration-guide/)  
+[JNCIA-DevOps Passed – Resources & Exam Thoughts (Take it for free!)](https://journey2theccie.wordpress.com/2020/06/07/jncia-devops-passed-resources-exam-thoughts-take-it-for-free/)  
+
+
 
 
