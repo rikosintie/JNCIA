@@ -42,10 +42,16 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
   * [Gettting Started with Junos OS lab](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started/index.html)  
   * [Junos OS Evolved](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/index.html)  
 
- 
-## AWS EC2 Instances
-  * vMX
-  * vSRX
+# Juniper Technical Articles
+[Loopback Interface Configuration](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/interfaces-fundamentals/topics/topic-map/interfaces-configuring-the-loopback-interface.html) - Note uses "passive" to advertise into a routing protocol.  
+[How Route Filters Are Evaluated in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html#understanding-route-filters-for-use-in-routing-policy-match-conditions__id-10270525)  
+[Understanding Route Filters for Use in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html)  
+[Protocol-Independent Routing Properties User Guide](https://www.juniper.net/documentation/us/en/software/junos/static-routing/static-routing.pdf)  
+[Meet the EX3400 Ethernet Switch](https://www.juniper.net/documentation/us/en/day-one-plus/ex3400/id-step-1-begin.html)  
+[Junos Architecture - Control and Data Planes - Introduction to Juniper and JNCIA part 12](https://www.youtube.com/watch?v=9MWUih0qWUc)  
+[Juniper's Routng Table | Introduction to Juniper adn JNCIA part 15](https://www.youtube.com/watch?v=D8YZmg0ywW0)  
+[An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)
+
 
 # Community Resources  
   * J-NSP Juniper Mailing lists [J-NSP](https://puck.nether.net/mailman/listinfo/juniper-nsp)  
@@ -75,7 +81,10 @@ Juniper provides images that worn on GNS3 but you have to pay for the Juniper tr
 [Juniper JunOS for Cisco Engineers Pt.2 – Static Routing and OSPF](https://journey2theccie.wordpress.com/2021/02/24/juniper-junos-for-cisco-engineers-pt-2-static-routing-and-ospf/)  
 [Juniper vSRX Setup & Initial Configuration Guide](https://journey2theccie.wordpress.com/2021/02/04/juniper-vsrx-setup-initial-configuration-guide/)  
 [JNCIA-DevOps Passed – Resources & Exam Thoughts (Take it for free!)](https://journey2theccie.wordpress.com/2020/06/07/jncia-devops-passed-resources-exam-thoughts-take-it-for-free/)  
+[Route-policy in JUNOS](https://ippoint.wordpress.com/2010/09/27/route-policy-in-junos/)  
 
-
+## AWS EC2 Instances
+  * vMX
+  * vSRX
 
 
