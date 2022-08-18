@@ -17,6 +17,7 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 * Free Open Learning CCNA to JNCIA [video](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=12097) training
 * Free practice tests after you complete the video training.  
 * [Day One Books](https://www.juniper.net/dayone) - Step by Step instructions on the platform  
+* [Beginner's Guide to Junos](https://www.juniper.net/documentation/en_US/day-one-books/junos-beginners-guide.pdf) - Same topics as the video training but a much deeper dive. Definitely read ch1-3, 6-8.
 * [Career Forum](https://forums.juniper.net/t5/Training-Certification-and/bd-p/Training_and_Certification) - Ask questions, get answers, share your knowledge with peers  
 * Hardware Deployment Guides  
 * [Juniper Networks Books](https://www.juniper.net/documentation/jnbooks/us/en/day-one-books)
