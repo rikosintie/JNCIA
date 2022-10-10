@@ -1,8 +1,8 @@
-#JunOS Routing
+# JunOS Routing
 
-Deactivate a route - in routing-options start the line with deactivate
-A deactivated route will not show in the routing table
-Activate a deactivated route - In rouing-options start the line with activate
+Deactivate a route - in routing-options start the line with deactivate  
+A deactivated route will not show in the routing table  
+Activate a deactivated route - In rouing-options start the line with activate  
 
 A routed interface is an L3 interface   
 Default - inet.0  
@@ -12,14 +12,15 @@ Default - inet.0
 * IMP - import policy
 * EXP - export policy
 
-##Routing Policy Syntax  
-matching (from) criteria on same line, generally OR'd
-Exception to above, route-filters
-Generally, (from) criteria on separate lines are AND'd
+## Routing Policy Syntax  
+matching (from) criteria on same line, generally OR'd  
+Exception to above, route-filters  
+Generally, (from) criteria on separate lines are AND'd  
 
 **[edit policy-options]**  
-```
+
 show  
+```
 policy-statement EXP-FOOBAR {  
      term OSPF_OR_STATIC_RFC1918 {  
         from {  
@@ -95,11 +96,11 @@ policy-statement EXP-FOOBAR {
 BGP Import accept all valid BGP route  
     Export accept and advertise all active BGP routes  
 
-OSPF Import Accept all OSPF routes into inte.0 from LSDB SFP calc 
+OSPF Import Accept all OSPF routes into inet.0 from LSDB SFP calc 
      Export Reject All (Static, BGP, Aggregate, other protocols) 
      (OSPF interface addresses advertised) 
 
-ISIS Import Accept all ISIS routes into inte.0 from LSDB SFP calc 
+ISIS Import Accept all ISIS routes into inet.0 from LSDB SFP calc 
      Export Reject All (Static, BGP, Aggregate, other protocols) 
      (ISIS interface addresses advertised) 
 ```
@@ -108,10 +109,10 @@ ISIS Import Accept all ISIS routes into inte.0 from LSDB SFP calc
 Within a Link state area - Every router must hold an identical copy of the stable.  
 
 
-Static route - preferenece of 5 only thing that beats it is directly connected  
+Static route - preference of 5 only thing that beats it is directly connected  
 
 
-**Route Preference** 
+**Route Preference**  
 Ranks routes received from different sources  
 Primary selection criteria the active route
 ```
@@ -136,7 +137,7 @@ edit
 edit routing-options static
 
 [edit routing-options static]
-set route 200.200.200.2/32 next-hop 30.30.0.100
+set route 200.200.200.2/32 next-hop 30.30.0.100 metric 100
 top 
 show routing-options
 show | compare
@@ -210,7 +211,7 @@ If a branch office has its own Internet connection, you don't want it redistribu
     <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/routing/images/Junos-no-redistribute.png"> 
 </p>  
 
-##VRFs##
+## VRFs  
 Junos calls VRFs virtual routers. In Junos, vrf is only used in MPLS.
 
 INET.0 is default routing table
@@ -223,7 +224,7 @@ dot1q
 LT is a virtual interface
 lt-0/0/0.0
 
-##RIB Groups##  
+## RIB Groups  
 Copying routing between Tables (RIB-Groups)
 Basically route leaking  
 
