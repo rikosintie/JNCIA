@@ -170,6 +170,9 @@ ping 200.200.200.2
 nothing - discarded silently  
 
 **Recursive resolution**  
+
+One of the requirements for defining a static route is that the next hop has to be directly connected. Junos, by default, does not support recursive next hop resolution. This, however, is easily fixed with adding the resolve option at the end of the static route command. As long as the next hop is resolved by an active route in the routing table or by a default route it will install the resolved route as part of the indirect hop. If you do not add the resolve knob the route will remain hidden as there is no valid next hop
+
 3 routers in a line r1/r2/r3  
 
 r1 - 10.10.0.1/24  
@@ -178,17 +181,24 @@ r2 - 20.20.0.3/24
 r3 - 20.20.0.4/24  
 r3 - LAN 40.40.0.4/24  
 
-R1 - must be running a dynamic routing protocol  
+Routers must be running a dynamic routing protocol  
 40.40.0/24 --> 20.20.0/24  
 
 You need to add the resolve keyword  
+
+[edit routing-options static]  
+set route 40.40.0.0/24 next-hop 10.10.0.2 resolve  
+lab@vSRX1# show
 ```
-[edit routing-options static]
-set route 40.40.0.0/24 next-hop 10.10.0.2 resolve
+static {
+    route 40.40.0.0/24 {
+        next-hop 10.10.0.2;
+        resolve; }
+}
+
 ```
 
 <p align="center" width="100%">
     <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/routing/images/Junos-Resolve.png"> 
 </p>  
-
 
