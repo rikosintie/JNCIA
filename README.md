@@ -84,6 +84,44 @@ Juniper provides images that worn on GNS3 but you have to pay for the Juniper tr
 [JNCIA-DevOps Passed – Resources & Exam Thoughts (Take it for free!)](https://journey2theccie.wordpress.com/2020/06/07/jncia-devops-passed-resources-exam-thoughts-take-it-for-free/)  
 [Route-policy in JUNOS](https://ippoint.wordpress.com/2010/09/27/route-policy-in-junos/)  
 
+## Documentation Resources
+
+**JUNOS BASICS**  
+* [Junos OS Documentation](https://www.juniper.net/documentation/product/en_US/junos-os#cat=product_documentation)  
+* [Overview for Junos OS](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/junos-overview.html)  
+* [Day1 + JunosOS](https://www.juniper.net/documentation/en_US/day-one-plus/junos-os/id-step-1-begin.html)  
+* [Getting Started Guide for Junos OS](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/getting-started.html)  
+* [User Access and Authentication User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/user-access.html)
+* [CLI User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/junos-cli/junos-cli.html)  
+* [CLI Explorer](https://apps.juniper.net/cli-explorer/)  
+* [Software Installation and Upgrade Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/software-installation-and-upgrade/software-installation-and-upgrade.html)
+* [Introducing Junos OS Evolved](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/introducing-evo-guide.html)
+
+**Routing policies, Protocols, Firewall Filters, and Services**  
+* [Routing Protocols Overview](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-routing-overview.html)  
+* [Protocol-Independent Routing Properties User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-static-routing.html)  
+* [Routing Policies, Firewall Filters, and Traffic Policers User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-policy/config-guide-policy.html)  
+* [OSPF User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-ospf.html)  
+* [BGP User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-routing-bgp.html)  
+* [RIP User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-routing-rip.html)
+* [IS-IS User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-routing-is-is.html)  
+* [MPLS Applications User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-mpls-applications/config-guide-mpls-applications.html)  
+[Class of Service User Guide (Routers and EX9200 Switches)](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/cos/config-guide-cos.html)  
+* [Class of Service User Guide (Security Devices)](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/security/cos-overview.html)  
+* [Adaptive Services Interfaces User Guide for Routing Devices](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/services-interfaces/router-services-application-properties.html)  
+* [Broadband Subscriber Services User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/subscriber-access/subscriber-mgmt-advanced-provisioning.html)  
+
+**ADDITIONAL RESOURCES**  
+* [Ethernet Switching User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/layer-2/layer2-multicast.html)  
+* [Ethernet Interfaces User Guide for Routing Devices](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-network-interfaces/network-interfaces-ethernet.html)  
+* [Interfaces Fundamentals for Routing Devices](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-network-interfaces/network-interfaces-fundamentals.html)  
+* [Interfaces User Guide for Switches](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/qfx-series/ethernet-interfaces-switches.html)  
+* [J-Web for SRX Series Documentation](https://www.juniper.net/documentation/product/en_US/j-web-srx-series)  
+* [Chassis-Level User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/router-chassis.html)  
+* [Network Management and Monitoring Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/network-management/network-management.html)  
+* [REST API Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/rest-api/rest-api.html)  
+* [NETCONF XML Management Protocol Developer Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/netconf-guide/netconf.html)  
+
 ## AWS EC2 Instances
   * vMX
   * vSRX
