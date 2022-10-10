@@ -84,7 +84,15 @@ Juniper provides images that worn on GNS3 but you have to pay for the Juniper tr
 [JNCIA-DevOps Passed – Resources & Exam Thoughts (Take it for free!)](https://journey2theccie.wordpress.com/2020/06/07/jncia-devops-passed-resources-exam-thoughts-take-it-for-free/)  
 [Route-policy in JUNOS](https://ippoint.wordpress.com/2010/09/27/route-policy-in-junos/)  
 
-## Documentation Resources
+**Some websites I found useful in learning/supporting Juniper**  
+* [Public key authentication in JUNOS](https://rtodto.net/public-key-authentication-in-junos/)  
+* [How to format install EX2300s and EX3400s via USB](https://supportportal.juniper.net/s/article/EX-How-to-format-install-EX2300s-and-EX3400s-via-USB?language=en_US)  
+* [Understanding the "Resolved In" field in Problem Reports (PR)](https://supportportal.juniper.net/s/article/Understanding-the-Resolved-In-field-in-Problem-Reports-PR?language=en_US)  
+* [How do you send Ctrl C in expect script?](https://quick-advisors.com/how-do-you-send-ctrl-c-in-expect-script/)  - I needed to flash several EX3400s and used minicom with expect on Mac to automatically enter ctrl+c to bring up the boot menu. Here is the terminal command I used  
+` minicom -D /dev/cu.usbserial-A9TZ2K1R -S expect.txt`  
+I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.  
+
+## Official Juniper Documentation Resources  
 
 **JUNOS BASICS**  
 * [Junos OS Documentation](https://www.juniper.net/documentation/product/en_US/junos-os#cat=product_documentation)  
