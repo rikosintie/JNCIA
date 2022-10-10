@@ -169,18 +169,26 @@ set discard
 ping 200.200.200.2  
 nothing - discarded silently  
 
-
 **Recursive resolution**  
 3 routers in a line r1/r2/r3  
 
 r1 - 10.10.0.1/24  
-r2 - 20.20.0.1/24  
-r3 - 40.40.0.1/24  
+r2 - 10.10.0.2/24  
+r2 - 20.20.0.3/24  
+r3 - 20.20.0.4/24  
+r3 - LAN 40.40.0.4/24  
 
-R1  
+R1 - must be running a dynamic routing protocol  
 40.40.0/24 --> 20.20.0/24  
 
 You need to add the resolve keyword  
+```
+[edit routing-options static]
+set route 40.40.0.0/24 next-hop 10.10.0.2 resolve
+```
 
+<p align="center" width="100%">
+    <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/routing/images/Junos-Resolve.png"> 
+</p>  
 
 
