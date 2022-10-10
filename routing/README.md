@@ -202,3 +202,106 @@ static {
     <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/routing/images/Junos-Resolve.png"> 
 </p>  
 
+**No readvertisement in junos**  
+Usually for default routes to the internet.  
+If a branch office has its own Internet connection, you don't want it redistributed into the corporate network.
+
+<p align="center" width="100%">
+    <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/routing/images/Junos-no-redistribute.png"> 
+</p>  
+
+##VRFs##
+Junos calls VRFs virtual routers. In Junos, vrf is only used in MPLS.
+
+INET.0 is default routing table
+
+top
+edit routing-instance vr3 (VR3.INET.0 but no interfaces assigned)
+1 Physical Interface add a vlan for vr3
+dot1q
+
+LT is a virtual interface
+lt-0/0/0.0
+
+##RIB Groups##  
+Copying routing between Tables (RIB-Groups)
+Basically route leaking  
+
+
+
+Prefix lists  
+A prefix-list MATCHES THE PREFIX EXACTLY  
+prefix-list-filter allows prefix match types  
+* exact
+* longer
+* orlonger
+* upto
+* prefix-length-range
+
+**Examples**  
+**exact** - 192.168.0.0/16 exact  
+Routes matching 192.168.0.0 in the first 16 bits AND with a subnet mask of exactly 16 bits.  
+Only routes for exactly 192.16.0.0/16 match.  
+
+**Longer** - 192.168.0.0/16 longer  
+Routes matching 192.168.0.0 in the first 16 bits AND with a subnet mask LONGER than 16 bits.  
+Any subnet of 192.16.0.0/16 matches.
+* 192.168.0.0/17  
+* 192.168.1.0/18  
+* 192.168.100/24  
+* 192.168.0.0/16 does NOT match.  
+
+**Orlonger** - 192.168.0.0/16 orlonger  
+A route matching 192.168.0.0 in the first 16 bits AND with a subnet mask of 16 bits ORLONGER.  
+Any subnet of 192.16.0.0/16 matches.  
+* 192.168.0.0/17 matches  
+* 192.168.1.0/18 matches  
+* 192.168.0.0/20 matches  
+* 192.168.100/24  matches  
+* 192.168.0.0/16 ALSO matches  
+
+**upto** - 192.168.0.0/16 upto /24  
+A route matching 192.168.0.0 in the first 16 bits AND with a subnet mask between 16 and 24.  
+Any subnet of 192.16.0.0/16 with a subnet mask between 16 and 24 matches.  
+* 192.168.0.0/16 matches  
+* 192.168.1.0/17 matches  
+* 192.168.0.0/18 matches  
+* 192.168.100/24 matches  
+* 192.168.1.128/26 does NOT match  
+
+Prefix-Length-Range - 192.168.0.0/16 prefix-length-range /20-/24  
+A route matching 192.168.0.0 in the first 16 bits AND with a subnet mask between 20 and 24 bits.  
+Any subnet of 192.16.0.0/16 with a subnet mask between 20 and 24 matches.  
+* 192.168.0.0/20 matches  
+* 192.168.64.0/22 matches  
+* 192.168.128.0/23 matches  
+* 192.168.10/24 matches  
+* 192.168.0.0/16 does NOT match  
+* 192.168.1.128/26 does NOT match  
+* 192.168.1.0/17 does NOT match  
+
+
+[edit policy-options]  
+show  
+```
+prefix-list rfc1918 {
+    10.0.0.0/8;
+    172.16.0.0/12;
+    192.168.0.0/16;
+}
+policy-statement FIRST_EXAMPLE {
+    term trem-1 {
+        from {
+            prefix-list rfc1918; (Exact match only)
+        }
+        then reject;
+    }
+}
+policy-statement OTHER_EXAMPLE {
+    term trem-2 {
+        from {
+            prefix-list-filter rfc1918 orlonger reject;
+        }
+    }
+}
+```
