@@ -54,6 +54,7 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 [An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)  
 [Overview for Junos OS](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/index.html) You can read it on the website or download the PDF. The PDF was published on 2022-06-15.  
 [Junos OS Overview](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/topics/concept/junos-software-introduction.html) A must read article. It clarifies how Junos works. Read the "Related Documentaion" articles also.  
+[Loading Configuration Files](https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/junos-config-files-loading.html) user@host# load (factory-default | merge | override | patch | replace | set | update) filename <relative> <json>
 
 # Community Resources  
   * J-NSP Juniper Mailing lists [J-NSP](https://puck.nether.net/mailman/listinfo/juniper-nsp)  
@@ -131,6 +132,6 @@ I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.
 * [Interfaces User Guide for Switches](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/qfx-series/ethernet-interfaces-switches.html)  
 * [J-Web for SRX Series Documentation](https://www.juniper.net/documentation/product/en_US/j-web-srx-series)  
 * [Chassis-Level User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/router-chassis.html)  
-* [Network Management and Monitoring Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/network-management/network-management.html)  
+* [Network Management and Monitoring Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/network-management/network-management.html)  
 * [REST API Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/rest-api/rest-api.html)  
 * [NETCONF XML Management Protocol Developer Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/netconf-guide/netconf.html)  
