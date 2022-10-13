@@ -51,8 +51,9 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 [Meet the EX3400 Ethernet Switch](https://www.juniper.net/documentation/us/en/day-one-plus/ex3400/id-step-1-begin.html)  
 [Junos Architecture - Control and Data Planes - Introduction to Juniper and JNCIA part 12](https://www.youtube.com/watch?v=9MWUih0qWUc)  
 [Juniper's Routng Table | Introduction to Juniper adn JNCIA part 15](https://www.youtube.com/watch?v=D8YZmg0ywW0)  
-[An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)
-
+[An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)  
+[Overview for Junos OS](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/index.html) You can read it on the website or download the PDF. The PDF was published on 2022-06-15.  
+[Junos OS Overview](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/topics/concept/junos-software-introduction.html) A must read article. It clarifies how Junos works. Read the "Related Documentaion" articles also.  
 
 # Community Resources  
   * J-NSP Juniper Mailing lists [J-NSP](https://puck.nether.net/mailman/listinfo/juniper-nsp)  
@@ -84,6 +85,10 @@ Juniper provides images that worn on GNS3 but you have to pay for the Juniper tr
 [JNCIA-DevOps Passed – Resources & Exam Thoughts (Take it for free!)](https://journey2theccie.wordpress.com/2020/06/07/jncia-devops-passed-resources-exam-thoughts-take-it-for-free/)  
 [Route-policy in JUNOS](https://ippoint.wordpress.com/2010/09/27/route-policy-in-junos/)  
 
+## AWS EC2 Instances
+  * vMX
+  * vSRX
+
 **Some websites I found useful in learning/supporting Juniper**  
 * [Public key authentication in JUNOS](https://rtodto.net/public-key-authentication-in-junos/)  
 * [How to format install EX2300s and EX3400s via USB](https://supportportal.juniper.net/s/article/EX-How-to-format-install-EX2300s-and-EX3400s-via-USB?language=en_US)  
@@ -92,7 +97,7 @@ Juniper provides images that worn on GNS3 but you have to pay for the Juniper tr
 ` minicom -D /dev/cu.usbserial-A9TZ2K1R -S expect.txt`  
 I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.  
 
-## Official Juniper Documentation Resources  
+## Official Juniper Documentation Resources
 
 **JUNOS BASICS**  
 * [Junos OS Documentation](https://www.juniper.net/documentation/product/en_US/junos-os#cat=product_documentation)  
@@ -129,9 +134,3 @@ I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.
 * [Network Management and Monitoring Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/network-management/network-management.html)  
 * [REST API Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/rest-api/rest-api.html)  
 * [NETCONF XML Management Protocol Developer Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/netconf-guide/netconf.html)  
-
-## AWS EC2 Instances
-  * vMX
-  * vSRX
-
-
