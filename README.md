@@ -136,6 +136,6 @@ I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.
 * [Interfaces User Guide for Switches](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/qfx-series/ethernet-interfaces-switches.html)  
 * [J-Web for SRX Series Documentation](https://www.juniper.net/documentation/product/en_US/j-web-srx-series)  
 * [Chassis-Level User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/router-chassis.html)  
-* [Network Management and Monitoring Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/network-management/network-management.html)  
+* [Network Management and Monitoring Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/network-management/network-management.html)  
 * [REST API Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/rest-api/rest-api.html)  
 * [NETCONF XML Management Protocol Developer Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/netconf-guide/netconf.html)  
