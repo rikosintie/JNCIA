@@ -8,6 +8,9 @@ Juniper offers a 7 hour video training course called [MIGRATING FROM THE CISCO C
 
 When you complete the training they send you an email with an offer to take a sample exam up to 3 times. If you get a 70% or better, they send you a coupon for 75% off of the $200 Pearson exam!
 
+[Getting Started with Networking](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=769)  
+If you are new to networking you should watch these. If you are a CCNA or better at least review because there are L2/L3 and IP addressing questions on the exam.
+
 ## Additional Resources
 Juniper offers quite a bit of free material to study from. Here are the ones I know about. Once you create a Learning Portal account you get access to several communitites. None are dedicated to the exams, but they are good for general knowledge. There is a dedicated [twitter](https://twitter.com/JuniperCertify) certification account.  
 
@@ -54,7 +57,8 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 [An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)  
 [Overview for Junos OS](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/index.html) You can read it on the website or download the PDF. The PDF was published on 2022-06-15.  
 [Junos OS Overview](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/topics/concept/junos-software-introduction.html) A must read article. It clarifies how Junos works. Read the "Related Documentaion" articles also.  
-[Loading Configuration Files](https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/junos-config-files-loading.html) user@host# load (factory-default | merge | override | patch | replace | set | update) filename <relative> <json>
+[Loading Configuration Files](https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/junos-config-files-loading.html) user@host# load (factory-default | merge | override | patch | replace | set | update) filename <relative> <json>  
+[instance-type](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/statement/instance-type-edit-routing-instances-vp.html) - Read over this article. I had 2 questions about it on the exam.  
 
 # Community Resources  
   * J-NSP Juniper Mailing lists [J-NSP](https://puck.nether.net/mailman/listinfo/juniper-nsp)  
