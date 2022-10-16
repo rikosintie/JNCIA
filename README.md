@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="75%" src="https://github.com/rikosintie/JNCIA/blob/main/images/junos6.png"> 
+    <img width="20%" src="https://github.com/rikosintie/JNCIA/blob/main/images/juniper-networks-certified-associate-junos-jncia-junos.png"> 
 </p>  
 
 
