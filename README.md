@@ -15,7 +15,6 @@ If you are new to networking you should watch these. If you are a CCNA or better
 Ovbiously you need to know what is covered on the exam:  
 [Exam Objectives](https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html)  
 
-
 # Additional Resources
 Juniper offers quite a bit of free material to study from. Here are the ones I know about. Once you create a Learning Portal account you get access to several communitites. None are dedicated to the exams, but they are good for general knowledge. There is a dedicated [twitter](https://twitter.com/JuniperCertify) certification account.  
 
@@ -123,12 +122,22 @@ Here are the articles I found useful:
 * [Protocol-Independent Routing Properties User Guide](https://www.juniper.net/documentation/us/en/software/junos/static-routing/static-routing.pdf)  
 * [Meet the EX3400 Ethernet Switch](https://www.juniper.net/documentation/us/en/day-one-plus/ex3400/id-step-1-begin.html)  
 * [Junos Architecture - Control and Data Planes - Introduction to Juniper and JNCIA part 12](https://www.youtube.com/watch?v=9MWUih0qWUc)  
-* [Juniper's Routng Table | Introduction to Juniper adn JNCIA part 15](https://www.youtube.com/watch?v=D8YZmg0ywW0)  
+* [Juniper's Routng Table | Introduction to Juniper and JNCIA part 15](https://www.youtube.com/watch?v=D8YZmg0ywW0)  
 * [An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)  
 * [Overview for Junos OS](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/index.html) You can read it on the website or download the PDF. The PDF was published on 2022-06-15.  
 * [Junos OS Overview](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/topics/concept/junos-software-introduction.html) A must read article. It clarifies how Junos works. Read the "Related Documentaion" articles also.  
 * [Loading Configuration Files](https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/junos-config-files-loading.html) load (factory-default | merge | override | patch | replace | set | update) filename <relative> <json>  
 * [instance-type](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/statement/instance-type-edit-routing-instances-vp.html) - Read over this article. I had 2 questions about it on the exam.  
+* [show route forwarding-table](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/command/show-route-forwarding-table-mpls-ex-series.html) - There will be questions about what you see when showing routes and the route forwarding-table. Be sure to lab it up and look at show route vs show route forwarding-table
+* [Configuring Default, Primary, and Preferred Addresses and Interfaces](https://www.juniper.net/documentation/en_US/junos9.5/information-products/topic-collections/config-guide-network-interfaces/interfaces-configuring-default-primary-and-preferred-addresses-and-interfaces.html) - Be sure to lab this up. It's important for the exam and is different that Cisco/Aruba.  
+* [Actions in Routing Policy Terms](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-actions-in-routing-policy-terms.html) Make sure you understand "Flow Control Actions"
+* [Tracing Global Routing Protocol Operations](https://www.juniper.net/documentation/us/en/software/junos/static-routing/topics/topic-map/tracing-global-routing-protocol-operations.html#id-example-tracing-global-routing-protocol-operations) I had one or two questions on tracing. This is quite different than debug on Cisco/Aruba. Make sure you lab it up and understand how to configure and display tracing.
+* [Firewall Filter Match Conditions, Actions, and Action Modifiers for EX Series Switches](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/firewall-filter-ex-series-match-conditions-description.html) Be sure to at least scan this document.
+* [instance-type](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/statement/instance-type-edit-routing-instances-vp.html) Again, this is quite different than Cisco/Aruba. You don't need to commit this to memory but at least scan it.
+
+That's about it. I know it seems like a lot for an associate exam but I don't like failing these things. I received a 93%k, passing was 61%. So I could have spent a lot less time studying, but I love the Junos devices and it wasn't really work to me.
+
+Good luck!
 
 # Community Resources  
   * J-NSP Juniper Mailing lists [J-NSP](https://puck.nether.net/mailman/listinfo/juniper-nsp)  
