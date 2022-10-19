@@ -1,17 +1,17 @@
 <p align="center" width="100%">
     <img width="20%" src="https://github.com/rikosintie/JNCIA/blob/main/images/juniper-networks-certified-associate-junos-jncia-junos.png"> 
-</p>  
+</p>    
 
 
 # Resources
-Juniper offers a 7 hour video training course called [MIGRATING FROM THE CISCO CCNA TO THE JNCIA-JUNOS](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-WBT-JOL-CCNA-JNCIA-JUNOS). As always, you have to create an account. Unlike Cisco, you have to use a corporate email address, they won't accept Google, Apple, etc OAUTH.
+Juniper offers a 7 hour video training course called [MIGRATING FROM THE CISCO CCNA TO THE JNCIA-JUNOS](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=EDU-JUN-WBT-JOL-CCNA-JNCIA-JUNOS). As always, you have to create an account. Unlike Cisco, you have to use a corporate email address, they won't accept Google, Apple,  OAUTH, etc.
 
 When you complete the training they send you an email with an offer to take a sample exam up to 3 times. If you get a 70% or better, they send you a coupon for 75% off of the $200 Pearson exam!
 
 [Getting Started with Networking](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=769)  
 If you are new to networking you should watch these. If you are a CCNA or better at least review because there are L2/L3 and IP addressing questions on the exam.
 
-## Additional Resources
+# Additional Resources
 Juniper offers quite a bit of free material to study from. Here are the ones I know about. Once you create a Learning Portal account you get access to several communitites. None are dedicated to the exams, but they are good for general knowledge. There is a dedicated [twitter](https://twitter.com/JuniperCertify) certification account.  
 
 ## Junos Learning Portal
@@ -22,7 +22,7 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
 * [Day One Books](https://www.juniper.net/dayone) - Step by Step instructions on the platform  
 * [Beginner's Guide to Junos](https://www.juniper.net/documentation/en_US/day-one-books/junos-beginners-guide.pdf) - Same topics as the video training but a much deeper dive. Definitely read ch1-3, 6-8.
 * [Career Forum](https://forums.juniper.net/t5/Training-Certification-and/bd-p/Training_and_Certification) - Ask questions, get answers, share your knowledge with peers  
-* Hardware Deployment Guides  
+* [Hardware Deployment Guides](https://www.juniper.net/documentation/)  
 * [Juniper Networks Books](https://www.juniper.net/documentation/jnbooks/us/en/day-one-books)
 
 
@@ -47,32 +47,90 @@ Juniper offers quite a bit of free material to study from. Here are the ones I k
   * [Junos OS Evolved](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/index.html)  
 
 # Juniper Technical Articles
-[Loopback Interface Configuration](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/interfaces-fundamentals/topics/topic-map/interfaces-configuring-the-loopback-interface.html) - Note uses "passive" to advertise into a routing protocol.  
-[How Route Filters Are Evaluated in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html#understanding-route-filters-for-use-in-routing-policy-match-conditions__id-10270525)  
-[Understanding Route Filters for Use in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html)  
-[Protocol-Independent Routing Properties User Guide](https://www.juniper.net/documentation/us/en/software/junos/static-routing/static-routing.pdf)  
-[Meet the EX3400 Ethernet Switch](https://www.juniper.net/documentation/us/en/day-one-plus/ex3400/id-step-1-begin.html)  
-[Junos Architecture - Control and Data Planes - Introduction to Juniper and JNCIA part 12](https://www.youtube.com/watch?v=9MWUih0qWUc)  
-[Juniper's Routng Table | Introduction to Juniper adn JNCIA part 15](https://www.youtube.com/watch?v=D8YZmg0ywW0)  
-[An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)  
-[Overview for Junos OS](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/index.html) You can read it on the website or download the PDF. The PDF was published on 2022-06-15.  
-[Junos OS Overview](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/topics/concept/junos-software-introduction.html) A must read article. It clarifies how Junos works. Read the "Related Documentaion" articles also.  
-[Loading Configuration Files](https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/junos-config-files-loading.html) user@host# load (factory-default | merge | override | patch | replace | set | update) filename <relative> <json>  
-[instance-type](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/statement/instance-type-edit-routing-instances-vp.html) - Read over this article. I had 2 questions about it on the exam.  
+Along with the Juniper CCNA to JCNIA videos, I think you need to review these articles based on my exam. 
+
+Watching Module 1 Junos fundamentals is important. There will be several questions on what the RE does and what the PFE does. I spent a lot of time watching this video and reading the junos-beginners-guide.pdf chapter 1.  
+
+The video covered routing, route filters, firewall filters in depth. I would watch the module 5/6 videos several times and have the lab with a vSRX, vQFX and vMX active. That way you can pause the video and jump into the lab.
+
+**Pro Tip:** Once the lab is active, click the "COMMANDS" menu, then "Add Allowed Network Prefixes". This allows you to enter your public IP and then connect without having to use browser. So much better!  
+
+You will get an email from Juniper with the IP and port number for each device. It looks like this:  
+
+<p align="center" width="100%">
+    <img width="100%" src="https://github.com/rikosintie/JNCIA/blob/main/images/Public-IPs.png"> 
+</p>    
+
+
+**Pro Tip 2:** Create a new SSH key pair and use keys to login.  
+
+If you are on windows, switch to Linux, I mean grab puttygen from the putty download page to create your keys.
+
+On *nix  
+```
+cd ~/.ssh
+ssh-keygen -t ed25519
+```
+You will be prompted for a filename:
+```
+Enter file in which to save the key (/Users/mhubbard/.ssh/id_ed25519):
+```
+
+I would use Juniper_ed25519 so that it's obvious two weeks from now when you are trying to remember how to log in!   
+
+This will create Juniper_ed25519 and Juniper_25519.pub. The .pub is the key you copy to the router.  
+
+Log into each device using the browser to enable root authentication:  
+```
+configure
+set system root authentication plaintext [enter]
+<plaintext password>
+<confirm password>
+show | compare
+commit
+```
+
+Then use your ssh client to log in using:
+```
+ssh root@<IP Address> -p <port in the email>
+```  
+
+
+Once you are logged in, enter the following in configure mode:
+
+```
+root# set system login user vector authentication ssh-ed25519 "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDoDOV0IobtYAgQXMDSvNPHVH7wVsD3iI9QBcF14hYUL"
+root# set system login user vector class super-user
+```
+
+Obviously, you will need to use your public key, not mine. 
+
+Then, to log in:  
+```
+ssh -i ~/.ssh/juniper_ed25519_key vector@66.129.234.214 -p 44020
+```  
+
+
+
+* [Loopback Interface Configuration](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/interfaces-fundamentals/topics/topic-map/interfaces-configuring-the-loopback-interface.html) - Note uses "passive" to advertise into a routing protocol.  
+* [How Route Filters Are Evaluated in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html#understanding-route-filters-for-use-in-routing-policy-match-conditions__id-10270525)  
+* [Understanding Route Filters for Use in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html)  
+* [Protocol-Independent Routing Properties User Guide](https://www.juniper.net/documentation/us/en/software/junos/static-routing/static-routing.pdf)  
+* [Meet the EX3400 Ethernet Switch](https://www.juniper.net/documentation/us/en/day-one-plus/ex3400/id-step-1-begin.html)  
+* [Junos Architecture - Control and Data Planes - Introduction to Juniper and JNCIA part 12](https://www.youtube.com/watch?v=9MWUih0qWUc)  
+* [Juniper's Routng Table | Introduction to Juniper adn JNCIA part 15](https://www.youtube.com/watch?v=D8YZmg0ywW0)  
+* [An infromal guide to the-Engines-of-Packet-Forwarding](https://forums.juniper.net/t5/Routing/An-Informal-Guide-to-the-Engines-of-Packet-Forwarding/ta-p/401192)  
+* [Overview for Junos OS](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/index.html) You can read it on the website or download the PDF. The PDF was published on 2022-06-15.  
+* [Junos OS Overview](https://www.juniper.net/documentation/us/en/software/junos/junos-overview/topics/concept/junos-software-introduction.html) A must read article. It clarifies how Junos works. Read the "Related Documentaion" articles also.  
+* [Loading Configuration Files](https://www.juniper.net/documentation/us/en/software/junos/cli/topics/topic-map/junos-config-files-loading.html) load (factory-default | merge | override | patch | replace | set | update) filename <relative> <json>  
+* [instance-type](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/statement/instance-type-edit-routing-instances-vp.html) - Read over this article. I had 2 questions about it on the exam.  
 
 # Community Resources  
   * J-NSP Juniper Mailing lists [J-NSP](https://puck.nether.net/mailman/listinfo/juniper-nsp)  
   * Join the [Juniper Slack](networktocode.herokuapp.com/) channel  
   * Join the Juniper commnunity - [elevate](https://community.juniper.net/home857)
 
-# Software Release Types
-[Junos OS Release Numbers](https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/software-install-and-upgrade-overview.html)  
-* **R** First revenue ship (FRS) or maintenance release software. R1 is FRS. R2 onward are maintenance releases.  
-* F Feature velocity release. Feature velocity releases are only in Junos OS Release 15.1. 
-* **B** Beta release software.  
-*  **I** Internal release software. These are private software releases for verifying fixes.  
-* **S** Service release software, which are released to customers to solve a specific problem—this release will be maintained along with the life span of the underlying release. The service release number is added after the R number, for example, 14.2R3-S4.4. Here S4 represents the 4th service release on top of 14.2R3 and is the 4th re-spin.  
-* **X** Special (eXception) release software. X releases follow a numbering system that differs from the standard release numbering.  
+
 
 # Docker
 * [DAY ONE: BUILDING CONTAINERS WITH cSRX, 2ND EDITION](https://www.juniper.net/documentation/en_US/day-one-books/day-one-building-containers-with-docker-csrx.pdf)  
