@@ -11,7 +11,7 @@ When you complete the training they send you an email with an offer to take a sa
 [Getting Started with Networking](https://learningportal.juniper.net/juniper/user_activity_info.aspx?id=769)  
 If you are new to networking you should watch these. If you are a CCNA or better at least review because there are L2/L3 and IP addressing questions on the exam.
 
-##Exam Objectives  
+## Exam Objectives  
 Ovbiously you need to know what is covered on the exam:  
 [Exam Objectives](https://www.juniper.net/us/en/training/certification/tracks/junos/jncia-junos.html)  
 
