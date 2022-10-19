@@ -51,9 +51,9 @@ Along with the Juniper CCNA to JCNIA videos, I think you need to review these ar
 
 Watching Module 1 Junos fundamentals is important. There will be several questions on what the RE does and what the PFE does. I spent a lot of time watching this video and reading the junos-beginners-guide.pdf chapter 1.  
 
-The video covered routing, route filters, firewall filters in depth. I would watch the module 5/6 videos several times and have the lab with a vSRX, vQFX and vMX active. That way you can pause the video and jump into the lab.
+The module 5/6 videos covered routing, route filters, firewall filters in depth. I would watch the module 5/6 videos several times and have the lab with a vSRX, vQFX and vMX active. That way you can pause the video and jump into the lab.
 
-**Pro Tip:** Once the lab is active, click the "COMMANDS" menu, then "Add Allowed Network Prefixes". This allows you to enter your public IP and then connect without having to use browser. So much better!  
+**Pro Tip:** Once the lab is active, click the "COMMANDS" menu, then "Add Allowed Network Prefixes". This allows you to enter your public IP and then connect without having to use the browser. So much better!  
 
 You will get an email from Juniper with the IP and port number for each device. It looks like this:  
 
@@ -90,7 +90,7 @@ show | compare
 commit
 ```
 
-Then use your ssh client to log in using:
+Then use your ssh client to log in:
 ```
 ssh root@<IP Address> -p <port in the email>
 ```  
@@ -110,7 +110,7 @@ Then, to log in:
 ssh -i ~/.ssh/juniper_ed25519_key vector@66.129.234.214 -p 44020
 ```  
 
-
+Here are the articles I found useful:  
 
 * [Loopback Interface Configuration](https://www.juniper.net/documentation/us/en/software/junos/junos-getting-started-evo/interfaces-fundamentals/topics/topic-map/interfaces-configuring-the-loopback-interface.html) - Note uses "passive" to advertise into a routing protocol.  
 * [How Route Filters Are Evaluated in Routing Policy Match Conditions](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/policy-configuring-route-lists-for-use-in-routing-policy-match-conditions.html#understanding-route-filters-for-use-in-routing-policy-match-conditions__id-10270525)  
