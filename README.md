@@ -188,6 +188,7 @@ I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.
 * [User Access and Authentication User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/user-access.html)
 * [CLI User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/junos-cli/junos-cli.html)  
 * [CLI Explorer](https://apps.juniper.net/cli-explorer/)  
+* [Junos® OS Software Installation and Upgrade Guide](https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/software-install-and-upgrade-overview.html#id-junos-os-installation-package-names__d110e95)  
 *  [Junos Software Versions - Suggested Releases to Consider and Evaluate](https://supportportal.juniper.net/s/article/Junos-Software-Versions-Suggested-Releases-to-Consider-and-Evaluate?language=en_US)  
 * [Software Installation and Upgrade Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/software-installation-and-upgrade/software-installation-and-upgrade.html)  
 * [Introducing Junos OS Evolved](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/introducing-evo-guide.html)  
