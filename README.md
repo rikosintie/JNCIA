@@ -134,6 +134,8 @@ Here are the articles I found useful:
 * [Tracing Global Routing Protocol Operations](https://www.juniper.net/documentation/us/en/software/junos/static-routing/topics/topic-map/tracing-global-routing-protocol-operations.html#id-example-tracing-global-routing-protocol-operations) I had one or two questions on tracing. This is quite different than debug on Cisco/Aruba. Make sure you lab it up and understand how to configure and display tracing.
 * [Firewall Filter Match Conditions, Actions, and Action Modifiers for EX Series Switches](https://www.juniper.net/documentation/us/en/software/junos/routing-policy/topics/concept/firewall-filter-ex-series-match-conditions-description.html) Be sure to at least scan this document.
 * [instance-type](https://www.juniper.net/documentation/us/en/software/junos/mpls/topics/ref/statement/instance-type-edit-routing-instances-vp.html) Again, this is quite different than Cisco/Aruba. You don't need to commit this to memory but at least scan it.
+* [Example: Configuring the MAC Address of an IRB Interface](https://www.juniper.net/documentation/us/en/software/junos/multicast-l2/topics/example/example-configuring-mac-address-of-an-irb-interface.html)
+* 
 
 That's about it. I know it seems like a lot for an associate exam but I don't like failing these things. I received a 93%k, passing was 61%. So I could have spent a lot less time studying, but I love the Junos devices and it wasn't really work to me.
 
@@ -159,6 +161,8 @@ Juniper provides images that worn on GNS3 but you have to pay for the Juniper tr
 [Juniper JunOS for Cisco Engineers Pt.1 – CLI Basics](https://journey2theccie.wordpress.com/2021/02/11/juniper-junos-for-cisco-engineers-pt-1-cli-basics/)  
 [Juniper JunOS for Cisco Engineers Pt.2 – Static Routing and OSPF](https://journey2theccie.wordpress.com/2021/02/24/juniper-junos-for-cisco-engineers-pt-2-static-routing-and-ospf/)  
 [Juniper vSRX Setup & Initial Configuration Guide](https://journey2theccie.wordpress.com/2021/02/04/juniper-vsrx-setup-initial-configuration-guide/)  
+[vSRX Deployment Guide for Private and Public Cloud Platforms](https://www.juniper.net/documentation/us/en/software/vsrx/vsrx-consolidated-deployment-guide/index.html)
+[Requirements for vSRX on VMware](https://www.juniper.net/documentation/us/en/software/vsrx/vsrx-consolidated-deployment-guide/vsrx-vmware/topics/concept/security-vsrx-vmware-system-requirement.html)  
 [JNCIA-DevOps Passed – Resources & Exam Thoughts (Take it for free!)](https://journey2theccie.wordpress.com/2020/06/07/jncia-devops-passed-resources-exam-thoughts-take-it-for-free/)  
 [Route-policy in JUNOS](https://ippoint.wordpress.com/2010/09/27/route-policy-in-junos/)  
 
@@ -184,8 +188,9 @@ I used an FTDI USB-C to serial adapter and it mounted as A9TZ2K1R.
 * [User Access and Authentication User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/system-basics/user-access.html)
 * [CLI User Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/junos-cli/junos-cli.html)  
 * [CLI Explorer](https://apps.juniper.net/cli-explorer/)  
-* [Software Installation and Upgrade Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/software-installation-and-upgrade/software-installation-and-upgrade.html)
-* [Introducing Junos OS Evolved](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/introducing-evo-guide.html)
+*  [Junos Software Versions - Suggested Releases to Consider and Evaluate](https://supportportal.juniper.net/s/article/Junos-Software-Versions-Suggested-Releases-to-Consider-and-Evaluate?language=en_US)  
+* [Software Installation and Upgrade Guide](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/software-installation-and-upgrade/software-installation-and-upgrade.html)  
+* [Introducing Junos OS Evolved](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/introducing-evo-guide.html)  
 
 **Routing policies, Protocols, Firewall Filters, and Services**  
 * [Routing Protocols Overview](https://www.juniper.net/documentation/en_US/junos/information-products/pathway-pages/config-guide-routing/config-guide-routing-overview.html)  
